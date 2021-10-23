@@ -16,7 +16,7 @@ function createGalleryItemsMarkup(galleryItems) {
     .join("");
 }
 
-const modal = new SimpleLightbox(".gallery a", {
+const lightBox = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
   captionDelay: 250,
   overlay: true,
